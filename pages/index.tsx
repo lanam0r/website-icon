@@ -1,7 +1,6 @@
-import React from 'react'
-import IndexPage from '../src/IndexPage'
-import * as serviceWorker from '../src/serviceWorker'
+import React from "react";
+import IndexPage from "../src/IndexPage";
 
-serviceWorker.unregister()
-
-export default () => <IndexPage />
+export default function Page() {
+  return <IndexPage />;
+}
